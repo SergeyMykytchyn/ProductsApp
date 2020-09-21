@@ -8,5 +8,5 @@ const product = require("./routes/product.route");
 app.use("./products", product);
 
 app.listen(port, () => {
-  console.log("Server is running on port ", port);
+  console.log("Server is running on port", port);
 });
